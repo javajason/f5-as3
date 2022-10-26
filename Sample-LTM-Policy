@@ -1,0 +1,27 @@
+            "Pol1": {
+                "class": "Endpoint_Policy",
+                "rules": [
+                    {
+                        "name": "AS3_rule1",
+                        "conditions": [
+                            {
+                                "type": "httpUri",
+                                "event": "request",
+                                "path": {
+                                    "operand": "contains",
+                                    "values": [
+                                        "f5as3"
+                                    ]
+                                },
+                                "normalized": true
+                            }
+                        ],
+                        "actions": [
+                            {
+                                "type": "drop",
+                                "event": "request"
+                            }
+                        ]
+                    }
+                ]
+            }
