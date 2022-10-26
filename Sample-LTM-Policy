@@ -1,4 +1,4 @@
-            "Pol1": {
+            "Pol2": {
                 "class": "Endpoint_Policy",
                 "rules": [
                     {
@@ -10,7 +10,7 @@
                                 "path": {
                                     "operand": "contains",
                                     "values": [
-                                        "f5as3"
+                                        "f5-as3"
                                     ]
                                 },
                                 "normalized": true
