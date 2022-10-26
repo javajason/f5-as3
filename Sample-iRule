@@ -1,5 +1,5 @@
 when HTTP_REQUEST {
-  log local0. "Hello"
+  log local0. "Hello world"
 }
 
 
