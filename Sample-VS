@@ -5,7 +5,7 @@
         "class": "Tenant",
         "App1": {
             "class": "Application",
-            "service": {
+            "service1": {
                 "class": "Service_HTTP",
                 "virtualAddresses": [
                     "192.168.1.200"
